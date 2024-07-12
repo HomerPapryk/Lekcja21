@@ -1,0 +1,20 @@
+body,
+html {
+  margin-top: 100px;
+}
+.parent {
+  width: 100%;
+  height: 300px; /* Przykładowa wysokość rodzica */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Przykładowy kolor tła rodzica */
+}
+
+.circle {
+  width: 33%;
+  padding-top: 33%; /* Dzięki temu wysokość będzie równa szerokości */
+  border-radius: 50%;
+  background-color: #3498db; /* Przykładowy kolor okręgu */
+  position: relative;
+}
